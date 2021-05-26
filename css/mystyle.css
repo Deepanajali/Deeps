@@ -1,0 +1,252 @@
+.header{
+    background-image: url(../image/bg.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+
+}
+header{
+    background-image: url(../image/bg.jpg) ;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+.h1{
+    color:black;
+}
+section h1{
+    color:black;
+}
+ul li{
+    display:inline-block;
+    margin:0 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: black;
+    color: wheat;
+}
+ul li.active a{
+    background-color: black;
+    color: wheat;
+}
+.logo img{
+    float:left;
+    height: 80px;
+    width: 150px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.social{
+    display:inline-block;
+    position:absolute;
+    bottom:0%;
+    align-content: center;
+    right: 30%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+ 
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }  
+  .fa-gmail {
+    background: #ee3f28;
+    color: white;
+  }
+  .fa-github {
+    background:black;
+    color: white;
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: black;
+    font-size: 70px;
+}
+.metadata{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    text-align: justify;
+    font-size: 20px;
+}
+h1 {
+    margin-top: 0;
+    text-align: center;
+    color: green;
+}
+.project_body{
+    background-image: url(../image/bg.jpg) ;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.project_list{
+    position: absolute;
+    top: 45%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+}
+form {
+    margin: 0 auto;
+    width: 450px;
+    padding: 1em;
+    border-style: groove;
+    border-color: black;
+    border-radius: 1em;
+    background-color: black;
+   
+}
+form p{
+    color: black;
+}
+div+div {
+    margin-top: 1em;
+}
+
+label span {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    color: black;
+}
+label abbr, p abbr {
+    color: red;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+textarea {
+    vertical-align: top;
+    height: 4em;
+    resize: vertical;
+    width: 300px;
+}
+#qualification{
+    width: 450px;
+    box-sizing: border-box;
+    margin-left: 0px;
+    border: 1px solid #999;
+    color: black;
+    height: 160px;
+    padding-top: 0px;
+}
+section skills__data{
+    text-align: center;
+}
+label {
+  position: relative;
+}
+label em {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}
+select{
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.label_handle label span{
+    width: auto;
+}
+.degree_class label span{
+    width: 150px;
+}
+.query label span {
+    width:auto
+}
+.radio_setting{
+    margin-top: 7px;
+    margin-left: -13px;
+}
+.radio_setting label span{
+    width:70px;
+}
+.radio_setting input {
+    margin-right: -7px;
+    margin-top: 6px;
+}
+.query textarea{
+    width:350px
+}
+input.radio {
+    width: 30px;
+}
+.block{
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    background-color: #4CAF50;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+#position{
+    width: 450px;
+    box-sizing: border-box;
+    margin-left: 0px;
+    border: 1px solid #999;
+    color: white;
+    height: 130px;
+    padding-top: 10px;
+}
+.positionspan label span{
+    width:130px;
+}
+#current_post {
+    margin-top: 4px;
+    margin-left: 2px;
+}
